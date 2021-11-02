@@ -15,11 +15,15 @@ Renders a tree as a PDF. Non-Deterministic.
 
 In any app, eventually you want to provide Printing.
 
-There are a myriad of ways to approach this, but with gio we can embed a PDF engine, and so build a PDF inside the Golang app, and fully control the look of what we are printing.
+There are a myriad of ways to approach this, but with gio we can embed a PDF engine, and so build a PDF inside the Golang app, and fully control the design of what we are printing.
 
 The only problem then is providing that PDF to the Print Dialogue screen that is native to all Desktops, Mobiles, Tablets and the web.
 
 This aims to fill exactly that gap.
+
+## What this overcomes
+
+We dont want to output the PDF to the users storage, and then ask the user to then print the PDF from their storage.
 
 ## Workflows
 
