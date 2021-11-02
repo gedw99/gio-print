@@ -15,6 +15,30 @@ The only problem then is providing that PDF to the Print Dialogue screen that is
 
 This aims to fill exactly that gap.
 
+## Workflows
+
+There is a workflow where by the User can change the Print settings, and so the golang needs to respond. For example changing the Paper size, Colour, etc.
+
+**IOS**
+
+[<img src="https://manula.r.sizr.io/large/user/4606/img/web-ios-anywhere-print-options_v2.png">](https://manula.r.sizr.io/large/user/4606/img/web-ios-anywhere-print-options_v2.png)
+
+**MAC**
+
+https://support.apple.com/en-in/guide/mac-help/prtct002/mac
+
+[<img src="https://communities.efi.com/sfc/servlet.shepherd/version/renditionDownload?rendition=THUMB720BY480&versionId=06839000004rUMp&operationContext=CHATTER&contentId=05T3900000GyK2B">]
+
+
+**WEB**
+
+Safari in this case...
+
+[<img src="https://qph.fs.quoracdn.net/main-qimg-572dbb1189f1e196d3445f26d3539368">](https://qph.fs.quoracdn.net/main-qimg-572dbb1189f1e196d3445f26d3539368
+
+
+
+
 ## How it does it
 
 GIO Platform provides the ability to hook into the native OS API.
