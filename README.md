@@ -60,7 +60,7 @@ See https://github.com/gioui, but in general the gogio tool provides toolng for 
 
 **Desktop**
 
-YOu can just use ``` go run . ``` or ``` go build . ``` 
+Use ``` go run . ``` or ``` go build . ``` 
 
 A simple example is here: https://github.com/gioui/gio-example/blob/main/notify/build_macos.go
 
@@ -78,4 +78,3 @@ https://github.com/gioui/giouiorg/blob/main/content/doc/mobile.md
 It seems this is the best cross platform way to interact is via: 
 
 https://developer.apple.com/documentation/uikit/uiprintinteractioncontroller/1618157-printingitem
-
