@@ -1,4 +1,4 @@
-name: Cover
+name: TEST
 
 on:
   push:

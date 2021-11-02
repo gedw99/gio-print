@@ -1,9 +1,11 @@
+
+name: RELEASE
+
 on:
   push:
     tags:
       - 'v*'
 
-name: Upload Release Asset
 
 
 jobs:
