@@ -16,6 +16,8 @@ BIN_FSPATH=$(PWD)/bin
 
 all-ci: dep-os print
 
+all-release:
+
 all: dep-os print
 
 print:
