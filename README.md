@@ -9,7 +9,7 @@ To be upstreamed to https://github.com/gioui/gio-x and https://github.com/gioui/
 
 In any app, eventually you want to provide Printing.
 
-There are a myriad of ways to approach this, but with gio we can embed a PDF engine, and so build a PDF inside the gaolang app, and fully control the look of what we are printing.
+There are a myriad of ways to approach this, but with gio we can embed a PDF engine, and so build a PDF inside the Golang app, and fully control the look of what we are printing.
 
 The only problem then is providing that PDF to the Print Dialogue screen that is native to all Desktops, Mobiles, Tablets and the web.
 
@@ -17,15 +17,22 @@ This aims to fill exactly that gap.
 
 ## How it does it
 
-GIO Platform provides the ability to hook into native OS API.
+GIO Platform provides the ability to hook into the native OS API.
 
-Apple UIKit: https://github.com/search?q=org%3Agioui+uikit&type=code
+Examples / mechanisms for this in hte code base below:
+
+**Apple UIKit**
+
+https://github.com/search?q=org%3Agioui+uikit&type=code
+
+**Android**
+
+TODO...
 
 
 ## Building / Compiling
 
-The gogio tool provides toolng for buildign and packaging.
-
+See https://github.com/gioui, but in general the gogio tool provides toolng for building and packaging.
 
 **Desktop**
 
