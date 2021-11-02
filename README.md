@@ -5,6 +5,12 @@ GIO Printing package
 To be upstreamed to https://github.com/gioui/gio-x and https://github.com/gioui/gio-example
 
 
+## Example
+
+Renders a tree as a PDF. Non-Deterministic.
+
+[<img src="https://raw.githubusercontent.com/gedw99/gio-print/main/example/tree/tree.png">](https://raw.githubusercontent.com/gedw99/gio-print/main/example/tree/tree.png)
+
 ## What it does 
 
 In any app, eventually you want to provide Printing.
