@@ -1,4 +1,4 @@
-name: CI
+name: BUILD
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
       matrix:
         os: [ ubuntu-20.04, macos-latest, windows-latest ]
         go-version: [ 1.17.0 ]
-        target: [ 'all-ci' ]
+        target: [ 'build-ci' ]
 
     runs-on: ${{ matrix.os }}
 

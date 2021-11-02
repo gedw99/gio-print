@@ -1,6 +1,12 @@
 name: Cover
 
-on: [ pull_request ]
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
 
 jobs:
   all:
@@ -11,7 +17,7 @@ jobs:
       matrix:
         os: [ ubuntu-20.04 ]
         go-version: [ 1.17.0 ]
-        target: [ 'test' ]
+        target: [ 'test-ci' ]
 
     runs-on: ${{ matrix.os }}
 

@@ -13,12 +13,28 @@ GIO_SRC_FSPATH=$(PWD)
 
 BIN_FSPATH=$(PWD)/bin
 
+all: build
 
-all-ci: dep-os print
+## Runs build in CI. See build.yaml.
+build-ci: dep-os print
 
-all-release:
+## Runs build locally.
+build: dep-os print
 
-all: dep-os print
+## Runs release on CI. See release.yaml.
+release-ci:
+
+## Runs release locally.
+release:
+
+## Runs tests locally. See test.yaml.
+test-ci:
+
+## Runs tests locally.
+test:
+
+
+
 
 print:
 	$(MAKE) go-print
