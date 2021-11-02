@@ -25,6 +25,8 @@ This aims to fill exactly that gap.
 
 We dont want to output the PDF to the users storage, and then ask the user to then print the PDF from their storage.
 
+This is an anti-pattern because the user has 2 steps to Print, and the workflow of the Printing options such as size are not accounted for.
+
 ## Workflows
 
 There is a workflow where by the User can change the Print settings, and so the golang needs to respond. For example changing the Paper size, Colour, etc.
