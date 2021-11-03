@@ -50,7 +50,7 @@ Package summary: https://developer.android.com/reference/android/print/package-s
 Printing custom documents: https://developer.android.com/training/printing/custom-docs
 - this shows how to use a PDF !
 
-Dwtailed example of PDF Printing code: https://www.techotopia.com/index.php/An_Android_Custom_Document_Printing_Tutorial
+Detailed code example and walkthrough: https://www.techotopia.com/index.php/An_Android_Custom_Document_Printing_Tutorial
 
 Screenshot ( left ): 
 
@@ -79,13 +79,18 @@ Set printing options for paper size, paper feed and more on Mac: https://support
 
 Screenshot: 
 
-[<img src="https://help.apple.com/assets/5FFC9995A591642D7264E8CD/5FFC999CA591642D7264E900/en_GB/bfc459104d25a1d074499adea5100896.png">]
+[<img src="https://help.apple.com/assets/5FFC9995A591642D7264E8CD/5FFC999CA591642D7264E900/en_GB/bfc459104d25a1d074499adea5100896.png">](https://help.apple.com/assets/5FFC9995A591642D7264E8CD/5FFC999CA591642D7264E900/en_GB/bfc459104d25a1d074499adea5100896.png)
 
 
 **Windows**
 
 
 Screenshot: 
+
+[<img src="https://help.apple.com/assets/5FFC9995A591642D7264E8CD/5FFC999CA591642D7264E900/en_GB/bfc459104d25a1d074499adea5100896.png">](https://help.apple.com/assets/5FFC9995A591642D7264E8CD/5FFC999CA591642D7264E900/en_GB/bfc459104d25a1d074499adea5100896.png)
+
+
+**Linux**
 
 
 
