@@ -26,7 +26,7 @@ On Mobile, Printing is initiated via the Share OS button.
 
 ## Platform specific notes
 
-List of docs and screenshots for each platform.
+Usage and screenshots for each platform.
 
 **Web**
 
@@ -96,7 +96,7 @@ Screenshot:
 
 ## Platform specific API's and notes
 
-GIO Print uses the OS Native API.
+API's for each Platform.
 
 
 **Apple ( iOS , iPadOS, MAC )**
