@@ -24,7 +24,7 @@ On Desktop, GIOUI does not currently support Native menus, so we need to have a 
 
 On Mobile, Printing is initiated via the Share OS button.
 
-## Platform specifc notes
+## Platform specific notes
 
 List of docs and screenshots for each platform.
 
@@ -94,7 +94,7 @@ Screenshot:
 
 
 
-## API's
+## Platform specific API's and notes
 
 GIO Print uses the OS Native API.
 
