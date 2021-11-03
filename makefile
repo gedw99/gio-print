@@ -1,9 +1,13 @@
+# https://github.com/gedw99/gio-print
+
+.DEFAULT_GOAL := all
 
 MAKE_FSPATH=$(PWD)/.make
-include $(MAKE_FSPATH)/help.mk
+
 include $(MAKE_FSPATH)/go.mk
 include $(MAKE_FSPATH)/gio.mk
 include $(MAKE_FSPATH)/mob.mk
+include $(MAKE_FSPATH)/help.mk
 
 GO_SRC_NAME=gio-print
 GO_SRC_FSPATH=$(PWD)
@@ -16,10 +20,10 @@ BIN_FSPATH=$(PWD)/bin
 all: build
 
 ## Runs build in CI. See build.yaml.
-build-ci: dep-os print
+build-ci: build
 
 ## Runs build locally.
-build: dep-os print
+build: dep-os print example-tree-all
 
 ## Runs release on CI. See release.yaml.
 release-ci:
@@ -50,14 +54,6 @@ dep-os:
 	$(MAKE) gio-dep
 	
 
-### MOD
-
-mod-tidy:
-	cd example/tree && go mod tidy
-	cd example/tree-cli && go mod tidy
-
-	cd x && go mod tidy
-
 mod-upgrade:
 	cd example/tree && $(GO_MOD_UPGRADE)
 	cd example/tree-cli && $(GO_MOD_UPGRADE)
@@ -66,14 +62,20 @@ mod-upgrade:
 
 ### EXAMPLES
 
-example-tree-build:
-	BIN=$(BIN_FSPATH)/tree
-	@echo BIN: $(BIN)
-	cd example/tree && go build -o $(BIN) .
-	./$(BIN)
+example-tree-all: example-tree-mod example-tree-print example-tree-build
 
-example-tree-run:
-	cd example/tree && go run .
+example-tree-print:
+	$(MAKE) GO_SRC_NAME=tree GO_SRC_FSPATH=$(PWD)/example/tree go-print
+
+example-tree-mod:
+	$(MAKE) GO_SRC_NAME=tree GO_SRC_FSPATH=$(PWD)/example/tree go-mod-upgrade
+
+example-tree-build:
+	$(MAKE) GO_SRC_NAME=tree GO_SRC_FSPATH=$(PWD)/example/tree go-build
+
+example-tree-run: example-tree-build
+	$(MAKE) GO_SRC_NAME=tree GO_SRC_FSPATH=$(PWD)/example/tree go-run
+
 
 example-treecli-run:
 	cd example/tree-cli && go run .

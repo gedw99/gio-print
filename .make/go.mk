@@ -86,7 +86,7 @@ go-run:
 ## Generates and builds the code
 go-build:
 	cd $(GO_SRC_FSPATH) && go generate ./...
-	# switch for OS
+	# TODO: switch for OS
 	cd $(GO_SRC_FSPATH) && go build -o $(GO_BUILD_DARWIN_PATH) .
 
 ## Builds and immediately runs the binary
