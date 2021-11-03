@@ -14,8 +14,13 @@ Provides the ability to Print directly from within a GIOUI app on Web, Desktop a
 1. Generates the PDF to memory ( or file system if its large ). 
 2. Prints that generated PDF via the Native OS Print Dialogue.
 
+## Compiling
 
-## Example
+The makefile and its includes build everything locally and in Github Actions CI.
+
+```make all``` 
+
+## Examples
 
 Currently we use this example of generating a PDF in golang as the example. Others will be added once Printing works, but for now we keep it simple.
 
