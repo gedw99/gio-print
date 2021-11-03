@@ -52,9 +52,11 @@ Printing custom documents: https://developer.android.com/training/printing/custo
 
 Dwtailed example of PDF Printing code: https://www.techotopia.com/index.php/An_Android_Custom_Document_Printing_Tutorial
 
-Screenshot: 
+Screenshot ( left ): 
 
-[<img src="https://www.techotopia.com/images/9/9a/Android_print_page_range.png?ezimgfmt=rs:380x403/rscb1/ng:webp/ngcb1">](https://www.techotopia.com/images/9/9a/Android_print_page_range.png?ezimgfmt=rs:380x403/rscb1/ng:webp/ngcb1)
+[<img src="https://eclipsesource.com/wp-content/uploads/2014/04/tabris-print3.png">](https://eclipsesource.com/wp-content/uploads/2014/04/tabris-print3.png)
+
+
 
 
 **IOS**
