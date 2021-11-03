@@ -18,7 +18,7 @@ Some of these properties are OS specific also.
 
 ## Initiating the workflow
 
-On Desktop, GIOUI does not currently support Native menus, so we need to have a dedicated button in the GIO screen to kick off the Print workflow. 
+On Desktop, GIOUI does not currently support Native menu's, so we need to have a dedicated button in the GIO screen to kick off the Print workflow. 
 
 - Note that later, we can use https://github.com/tadvi/winc/blob/master/menu.go to get Native Windows menu, and hence a Print button in the menu.
 
@@ -99,7 +99,7 @@ Screenshot:
 GIO Print uses the OS Native API.
 
 
-**Apple**
+**Apple ( iOS , iPadOS, MAC )**
 
 UIKit API Docs here: 
 
@@ -113,7 +113,7 @@ Mac Catalyst 13.0+
 
 
 
-**Windows**
+**Windows ( all ) **
 
 API docs here:
 
