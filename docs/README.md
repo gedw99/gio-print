@@ -3,13 +3,26 @@
 
 ## Workflows
 
-When the Print Dialogue opens, the user can change the Paper size, and so the PDF will need to be re-generated.
+When the Print Dialogue opens, the user can change the properties.
 
-There are likely to be other properites that a user can change in this Dialogue that will require regenerating the PDF.
+These properties are used when creating the PDF document,
+
+The properties are:
+
+- paper size,
+- orientation,
+- resolution
+- color settings
+- page ranges ( e.g 1-4, 8,9, 11-13)
+
+Some of these properties are OS specific also.
+
 
 ## Initiating the workflow
 
-On Desktop, GIOUI does not currently support Native menu, so we have a dedicated button in the GIO screen to kick off the Print workflow.
+On Desktop, GIOUI does not currently support Native menu, so we need to have a dedicated button in the GIO screen to kick off the Print workflow. 
+
+- Note that later, we can use https://github.com/tadvi/winc/blob/master/menu.go to get Native Windows menu, and hence a Print button in the menu.
 
 On Mobile, Printing is initiated via the Share OS button.
 
@@ -23,7 +36,14 @@ The standard Window.print(): https://developer.mozilla.org/en-US/docs/Web/API/Wi
 
 Web Mobile initiation is via the OS naive Share button.
 
+Screenshot: 
+
+
+
 Web Desktop, is via the Browser native Print button.
+
+Screenshot: 
+
 
 **Android**
 
@@ -31,6 +51,8 @@ Package summary: https://developer.android.com/reference/android/print/package-s
 
 Printing custom documents: https://developer.android.com/training/printing/custom-docs
 - this shows how to use a PDF !
+
+Dwtailed example of PDF Printing code: https://www.techotopia.com/index.php/An_Android_Custom_Document_Printing_Tutorial
 
 Screenshot: 
 
@@ -49,13 +71,15 @@ Choose settings in the Print dialogue on Mac: https://support.apple.com/en-in/gu
 
 Set printing options for paper size, paper feed and more on Mac: https://support.apple.com/en-in/guide/mac-help/mh26678/12.0/mac/12.0
 
+Screenshot: 
+
 [<img src="https://help.apple.com/assets/5FFC9995A591642D7264E8CD/5FFC999CA591642D7264E900/en_GB/bfc459104d25a1d074499adea5100896.png">]
 
 
 **Windows**
 
 
-
+Screenshot: 
 
 
 
