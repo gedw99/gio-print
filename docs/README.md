@@ -5,9 +5,7 @@
 
 When the Print Dialogue opens, the user can change the properties.
 
-These properties are used when creating the PDF document,
-
-The properties are:
+These properties are used when creating the PDF document. The properties are:
 
 - paper size,
 - orientation,
@@ -20,7 +18,7 @@ Some of these properties are OS specific also.
 
 ## Initiating the workflow
 
-On Desktop, GIOUI does not currently support Native menu, so we need to have a dedicated button in the GIO screen to kick off the Print workflow. 
+On Desktop, GIOUI does not currently support Native menus, so we need to have a dedicated button in the GIO screen to kick off the Print workflow. 
 
 - Note that later, we can use https://github.com/tadvi/winc/blob/master/menu.go to get Native Windows menu, and hence a Print button in the menu.
 
@@ -62,6 +60,12 @@ Screenshot:
 **IOS**
 
 Use AirPrint to print from your iPhone, iPad, or iPod touch: https://support.apple.com/en-us/HT201387
+
+Screenshot ( right ): 
+
+[<img src="https://eclipsesource.com/wp-content/uploads/2014/04/tabris-print3.png">](https://eclipsesource.com/wp-content/uploads/2014/04/tabris-print3.png)
+
+
 
 
 
