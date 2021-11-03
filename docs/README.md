@@ -22,7 +22,7 @@ On Desktop, GIOUI does not currently support Native menu's, so we need to have a
 
 - Note that later, we can use https://github.com/tadvi/winc/blob/master/menu.go to get Native Windows menu, and hence a Print button in the menu.
 
-On Mobile, Printing is initiated via the Share OS button.
+On Mobile, Printing is initiated via the operating system's Share button.
 
 ## Platform specific notes
 
@@ -85,9 +85,11 @@ Screenshot:
 **Windows**
 
 
-Screenshot: 
+Screenshot ( Page Setup Dialog Box ):
 
-[<img src="https://help.apple.com/assets/5FFC9995A591642D7264E8CD/5FFC999CA591642D7264E900/en_GB/bfc459104d25a1d074499adea5100896.png">](https://help.apple.com/assets/5FFC9995A591642D7264E8CD/5FFC999CA591642D7264E900/en_GB/bfc459104d25a1d074499adea5100896.png)
+[<img src="https://docs.microsoft.com/en-us/windows/win32/dlgbox/images/pagesetupdialogboxxp.png">](https://docs.microsoft.com/en-us/windows/win32/dlgbox/images/pagesetupdialogboxxp.png)
+
+
 
 
 **Linux**
@@ -115,11 +117,17 @@ Supports: iOS 4.2+, iPadOS 4.2+, Mac Catalyst 13.0+
 
 API docs here:
 
+PageSetupDlg function is the recommended way for New apps.
+
+https://docs.microsoft.com/en-us/windows/win32/dlgbox/page-setup-dialog-box
+
 PrintDlgEx function
 
 https://docs.microsoft.com/en-us/windows/win32/printdocs/retrieving-a-printer-device-context#display-a-print-common-dialog-box
 
 https://github.com/MicrosoftDocs/win32/blob/docs/desktop-src/dlgbox/using-common-dialog-boxes.md#displaying-the-print-dialog-box
+
+
 
 Print Preview and print properties flow: https://docs.microsoft.com/en-us/windows/win32/dlgbox/using-common-dialog-boxes?redirectedfrom=MSDN#setting-up-the-printed-page
 
