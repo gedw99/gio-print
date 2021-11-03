@@ -30,9 +30,10 @@ Web Desktop, is via the Browser native Print button.
 Package summary: https://developer.android.com/reference/android/print/package-summary
 
 Printing custom documents: https://developer.android.com/training/printing/custom-docs
-- this hsows how to use a PDF !
+- this shows how to use a PDF !
 
-Screenshot: [<img src="https://www.techotopia.com/images/9/9a/Android_print_page_range.png?ezimgfmt=rs:380x403/rscb1/ng:webp/ngcb1">](https://www.techotopia.com/images/9/9a/Android_print_page_range.png?ezimgfmt=rs:380x403/rscb1/ng:webp/ngcb1)
+Screenshot: 
+[<img src="https://www.techotopia.com/images/9/9a/Android_print_page_range.png?ezimgfmt=rs:380x403/rscb1/ng:webp/ngcb1">](https://www.techotopia.com/images/9/9a/Android_print_page_range.png?ezimgfmt=rs:380x403/rscb1/ng:webp/ngcb1)
 
 
 **IOS**
