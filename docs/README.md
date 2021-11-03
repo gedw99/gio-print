@@ -113,7 +113,7 @@ Mac Catalyst 13.0+
 
 
 
-**Windows ( all ) **
+**Windows ( all )**
 
 API docs here:
 
