@@ -107,9 +107,7 @@ var printingItem: Any? { get set }
 
 https://developer.apple.com/documentation/uikit/uiprintinteractioncontroller/1618157-printingitem
 
-iOS 4.2+
-iPadOS 4.2+
-Mac Catalyst 13.0+
+Supports: iOS 4.2+, iPadOS 4.2+, Mac Catalyst 13.0+
 
 
 
