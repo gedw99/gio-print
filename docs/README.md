@@ -101,10 +101,24 @@ GIO Print uses the OS Native API.
 
 **Apple**
 
-It seems this is the best cross platform way to interact is via: 
+UIKit API Docs here: 
+
+var printingItem: Any? { get set }
 
 https://developer.apple.com/documentation/uikit/uiprintinteractioncontroller/1618157-printingitem
 
+iOS 4.2+
+iPadOS 4.2+
+Mac Catalyst 13.0+
 
+
+
+**Windows**
+
+API docs here:
+
+PrintDlgEx function
+
+https://docs.microsoft.com/en-us/windows/win32/printdocs/retrieving-a-printer-device-context#display-a-print-common-dialog-box
 
 
