@@ -121,4 +121,11 @@ PrintDlgEx function
 
 https://docs.microsoft.com/en-us/windows/win32/printdocs/retrieving-a-printer-device-context#display-a-print-common-dialog-box
 
+https://github.com/MicrosoftDocs/win32/blob/docs/desktop-src/dlgbox/using-common-dialog-boxes.md#displaying-the-print-dialog-box
+
+Print Preview and print properties flow: https://docs.microsoft.com/en-us/windows/win32/dlgbox/using-common-dialog-boxes?redirectedfrom=MSDN#setting-up-the-printed-page
+
+
+
+
 
