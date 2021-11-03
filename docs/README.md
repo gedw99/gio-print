@@ -94,6 +94,8 @@ Screenshot ( Page Setup Dialog Box ):
 
 **Linux**
 
+Dont know. Feel free to PR any info you have thats relevant.
+
 
 
 ## Platform specific API's and notes
@@ -112,7 +114,6 @@ https://developer.apple.com/documentation/uikit/uiprintinteractioncontroller/161
 Supports: iOS 4.2+, iPadOS 4.2+, Mac Catalyst 13.0+
 
 
-
 **Windows ( all )**
 
 API docs here:
@@ -128,10 +129,13 @@ https://docs.microsoft.com/en-us/windows/win32/printdocs/retrieving-a-printer-de
 https://github.com/MicrosoftDocs/win32/blob/docs/desktop-src/dlgbox/using-common-dialog-boxes.md#displaying-the-print-dialog-box
 
 
-
 Print Preview and print properties flow: https://docs.microsoft.com/en-us/windows/win32/dlgbox/using-common-dialog-boxes?redirectedfrom=MSDN#setting-up-the-printed-page
 
 
+**Linux**
+
+
+Dont know. Feel free to PR any info you have thats relevant.
 
 
 
