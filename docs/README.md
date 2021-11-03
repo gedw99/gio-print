@@ -33,6 +33,7 @@ Printing custom documents: https://developer.android.com/training/printing/custo
 - this shows how to use a PDF !
 
 Screenshot: 
+
 [<img src="https://www.techotopia.com/images/9/9a/Android_print_page_range.png?ezimgfmt=rs:380x403/rscb1/ng:webp/ngcb1">](https://www.techotopia.com/images/9/9a/Android_print_page_range.png?ezimgfmt=rs:380x403/rscb1/ng:webp/ngcb1)
 
 
